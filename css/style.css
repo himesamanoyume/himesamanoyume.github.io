@@ -362,7 +362,7 @@ body {
   left: 0;
   margin-top: -20px;
 }
-:hover {
+#header-title:hover {
   -webkit-animation: titleHoverToBlack 0.5s forwards;
   -moz-animation: titleHoverToBlack 0.5s forwards;
   -ms-animation: titleHoverToBlack 0.5s forwards;
