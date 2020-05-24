@@ -375,15 +375,21 @@ body {
   letter-spacing: 2px;
 }
 #logo:hover {
-  -webkit-animation: titleHoverToBlack 0.5s forwards;
-  -moz-animation: titleHoverToBlack 0.5s forwards;
-  -ms-animation: titleHoverToBlack 0.5s forwards;
-  animation: titleHoverToBlack 0.5s forwards;
+  -webkit-animation: titleHoverToBlue 0.5s forwards;
+  -moz-animation: titleHoverToBlue 0.5s forwards;
+  -ms-animation: titleHoverToBlue 0.5s forwards;
+  animation: titleHoverToBlue 0.5s forwards;
 }
 #subtitle {
   font-size: 16px;
   line-height: 16px;
   letter-spacing: 1px;
+}
+#subtitle:hover {
+  -webkit-animation: titleHoverToBlue 0.5s forwards;
+  -moz-animation: titleHoverToBlue 0.5s forwards;
+  -ms-animation: titleHoverToBlue 0.5s forwards;
+  animation: titleHoverToBlue 0.5s forwards;
 }
 #subtitle-wrap {
   margin-top: 16px;
@@ -516,24 +522,28 @@ body {
 .search-form-submit:focus {
   color: #777;
 }
-@-moz-keyframes titleHoverToBlack {
+@-moz-keyframes titleHoverToBlue {
   100% {
     color: #1e90ff;
+    text-shadow: 5px 5px 5px #000;
   }
 }
-@-webkit-keyframes titleHoverToBlack {
+@-webkit-keyframes titleHoverToBlue {
   100% {
     color: #1e90ff;
+    text-shadow: 5px 5px 5px #000;
   }
 }
-@-o-keyframes titleHoverToBlack {
+@-o-keyframes titleHoverToBlue {
   100% {
     color: #1e90ff;
+    text-shadow: 5px 5px 5px #000;
   }
 }
-@keyframes titleHoverToBlack {
+@keyframes titleHoverToBlue {
   100% {
     color: #1e90ff;
+    text-shadow: 5px 5px 5px #000;
   }
 }
 @-moz-keyframes titleHoverToGrey {
