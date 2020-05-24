@@ -512,25 +512,21 @@ body {
 }
 @-moz-keyframes titleHoverToBlack {
   100% {
-    background-color: rgba(119,136,153,0.3);
     color: #1e90ff;
   }
 }
 @-webkit-keyframes titleHoverToBlack {
   100% {
-    background-color: rgba(119,136,153,0.3);
     color: #1e90ff;
   }
 }
 @-o-keyframes titleHoverToBlack {
   100% {
-    background-color: rgba(119,136,153,0.3);
     color: #1e90ff;
   }
 }
 @keyframes titleHoverToBlack {
   100% {
-    background-color: rgba(119,136,153,0.3);
     color: #1e90ff;
   }
 }
