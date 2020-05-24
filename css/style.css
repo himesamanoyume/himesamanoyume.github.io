@@ -510,6 +510,26 @@ body {
 .search-form-submit:focus {
   color: #777;
 }
+@-moz-keyframes titleHoverToBlack {
+  100% {
+    color: #6cf;
+  }
+}
+@-webkit-keyframes titleHoverToBlack {
+  100% {
+    color: #6cf;
+  }
+}
+@-o-keyframes titleHoverToBlack {
+  100% {
+    color: #6cf;
+  }
+}
+@keyframes titleHoverToBlack {
+  100% {
+    color: #6cf;
+  }
+}
 .article {
   margin: 50px 0;
 }
