@@ -536,6 +536,12 @@ body {
 .article-inner {
   overflow: hidden;
 }
+.article-inner:hover {
+  -webkit-animation: articleHoverToGrey 0.5s forwards;
+  -moz-animation: articleHoverToGrey 0.5s forwards;
+  -ms-animation: articleHoverToGrey 0.5s forwards;
+  animation: articleHoverToGrey 0.5s forwards;
+}
 .article-meta:before,
 .article-meta:after {
   content: "";
@@ -966,6 +972,26 @@ a.article-title:hover {
   display: block;
   max-width: 100%;
   margin: 0 auto;
+}
+@-moz-keyframes articleHoverToGrey {
+  100% {
+    color: #b0c4de;
+  }
+}
+@-webkit-keyframes articleHoverToGrey {
+  100% {
+    color: #b0c4de;
+  }
+}
+@-o-keyframes articleHoverToGrey {
+  100% {
+    color: #b0c4de;
+  }
+}
+@keyframes articleHoverToGrey {
+  100% {
+    color: #b0c4de;
+  }
 }
 #comments {
   background: #fff;
