@@ -86,24 +86,12 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <a id="more"></a>
-
-<h2 id="First"><a href="#First" class="headerlink" title="First"></a>First</h2><p>1 把主页配置文件_config.yml 里的post_asset_folder:这个选项设置为true</p>
-<p>2 在你的hexo目录下执行这样一句话npm install hexo-asset-image –save，这是下载安装一个可以上传本地图片的插件，来自dalao：dalao的git</p>
-<p>3 等待一小段时间后，再运行hexo n “xxxx”来生成md博文时，/source/_posts文件夹内除了xxxx.md文件还有一个同名的文件夹</p>
-<p>4 最后在xxxx.md中想引入图片时，先把图片复制到xxxx这个文件夹中，然后只需要在xxxx.md中按照markdown的格式引入图片：</p>
- <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![你想输入的替代文字](xxxx/图片名.jpg)</span><br></pre></td></tr></table></figure>
-
-<p>注意： xxxx是这个md文件的名字，也是同名文件夹的名字。只需要有文件夹名字即可，不需要有什么绝对路径。你想引入的图片就只需要放入xxxx这个文件夹内就好了，很像引用相对路径。</p>
-<p>5 最后检查一下，hexo g生成页面后，进入public\2017\02\26\index.html文件中查看相关字段，可以发现，html标签内的语句是<img src="/2020/05/24/Hexo-asset-image%E8%AE%BE%E7%BD%AE%E5%9B%BE%E7%89%87test/02/26/xxxx/图片名.jpg">，而不是&lt;img src=”xxxx/图片名.jpg&gt;。这很重要，关乎你的网页是否可以真正加载你想插入的图片。</p>
-<h2 id="Second"><a href="#Second" class="headerlink" title="Second"></a>Second</h2><p>本地source中建立img文件夹</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;img src=<span class="string">"img/图片名.jpg"</span>&gt;</span><br></pre></td></tr></table></figure>
-
-<p>这个比较方便</p>
-<h2 id="Third"><a href="#Third" class="headerlink" title="Third"></a>Third</h2><p>图床，不太稳定。</p>
-<p>原文：<a href="https://www.cnblogs.com/codehome/p/8428738.html?utm_source=debugrun&amp;utm_medium=referral" target="_blank" rel="noopener">https://www.cnblogs.com/codehome/p/8428738.html?utm_source=debugrun&amp;utm_medium=referral</a></p>
-<p>test:<br><img src="/2020/05/24/Hexo-asset-image%E8%AE%BE%E7%BD%AE%E5%9B%BE%E7%89%87test/81700545_p0.jpg" alt="Htime!"></p>
-
+        <p>懒得收藏起来所以放在这里</p>
+        
+          <p class="article-more-link">
+            <a href="/2020/05/24/Hexo-asset-image%E8%AE%BE%E7%BD%AE%E5%9B%BE%E7%89%87test/#more">Read More</a>
+          </p>
+        
       
     </div>
     <footer class="article-footer">
