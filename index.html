@@ -87,22 +87,26 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>第一篇文章直接把学md之前的示例文章(Hello World.md)内代码展示以供自己学习。</p>
-<p>1.一行里不停写，都是同一段。<br>2.一行最前加$可以贴代码上去。<br>3.##，###大概是序号大小。<br>4.VScode里红标代表要空一行出来，最后一行也要。<br>5.基础md语法：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">$</span><br><span class="line">$    Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check    [documentation](https://hexo.io/docs/) <span class="keyword">for</span> more info. If you get any problems when using Hexo, you can find the answer <span class="keyword">in</span> [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).</span><br><span class="line">$</span><br><span class="line">$ <span class="comment">## Quick Start</span></span><br><span class="line">$</span><br><span class="line">$ <span class="comment">### Create a new post</span></span><br><span class="line">$</span><br><span class="line">$ ``` bash</span><br><span class="line">$ $ hexo new <span class="string">"My New Post"</span></span><br><span class="line">$</span><br></pre></td></tr></table></figure>
-<p>$<br>$ More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a><br>$<br>$ ### Run server<br>$<br>$ <code>bash
-$ $ hexo server
-$</code><br>$<br>$ More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a><br>$<br>$ ### Generate static files<br>$<br>$ <code>bash
-$ $ hexo generate
-$</code><br>$<br>$ More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a><br>$<br>$ ### Deploy to remote sites<br>$<br>$ <code>bash
-$ $ hexo deploy
-$</code><br>$<br>$ More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+<p>1.一行里不停写，都是同一段。<br>2.’’’bash’’’是贴代码的,我还不知道怎么嵌套或者能否嵌套 所以先用（这样放前面。<br>3.##，###大概是类似title。<br>4.VScode里红标代表要空一行出来，最后一行也要。<br>5.基础md语法：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">   Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check    [documentation](https://hexo.io/docs/) <span class="keyword">for</span> more info. If you get any problems when using Hexo, you can find the answer <span class="keyword">in</span> [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).</span><br><span class="line"></span><br><span class="line"><span class="comment">## Quick Start</span></span><br><span class="line"></span><br><span class="line"><span class="comment">### Create a new post</span></span><br><span class="line"></span><br><span class="line">``` bash</span><br><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br><span class="line">(</span><br></pre></td></tr></table></figure>
+
+<p> More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3> <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br><span class="line">(</span><br></pre></td></tr></table></figure>
+
+<p> More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3> <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br><span class="line">(</span><br></pre></td></tr></table></figure>
+
+<p> More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3> <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br><span class="line">(</span><br></pre></td></tr></table></figure>
+
+<p> More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 <p>```</p>
 <p>The End</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/05/23/hello-world/" data-id="ckakf7wei000068b3e3kq6a8e" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/05/23/hello-world/" data-id="ckakfg7om00008cb3bipb4fv6" class="article-share-link">Share</a>
       
       
     </footer>
