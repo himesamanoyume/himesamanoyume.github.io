@@ -362,12 +362,6 @@ body {
   left: 0;
   margin-top: -20px;
 }
-#header-title:hover {
-  -webkit-animation: titleHoverToBlack 0.5s forwards;
-  -moz-animation: titleHoverToBlack 0.5s forwards;
-  -ms-animation: titleHoverToBlack 0.5s forwards;
-  animation: titleHoverToBlack 0.5s forwards;
-}
 #logo,
 #subtitle {
   text-decoration: none;
@@ -379,6 +373,12 @@ body {
   font-size: 40px;
   line-height: 40px;
   letter-spacing: 2px;
+}
+#logo:hover {
+  -webkit-animation: titleHoverToBlack 0.5s forwards;
+  -moz-animation: titleHoverToBlack 0.5s forwards;
+  -ms-animation: titleHoverToBlack 0.5s forwards;
+  animation: titleHoverToBlack 0.5s forwards;
 }
 #subtitle {
   font-size: 16px;
@@ -395,7 +395,7 @@ body {
 .nav-icon,
 .main-nav-link {
   float: left;
-  color: #fff;
+  color: #000;
   opacity: 0.6;
   text-decoration: none;
   text-shadow: 0 1px rgba(0,0,0,0.2);
@@ -428,6 +428,12 @@ body {
   .main-nav-link {
     display: none;
   }
+}
+.main-nav-link:hover {
+  -webkit-animation: titleHoverToGrey 0.5s forwards;
+  -moz-animation: titleHoverToGrey 0.5s forwards;
+  -ms-animation: titleHoverToGrey 0.5s forwards;
+  animation: titleHoverToGrey 0.5s forwards;
 }
 #main-nav-toggle {
   display: none;
@@ -530,17 +536,35 @@ body {
     color: #1e90ff;
   }
 }
+@-moz-keyframes titleHoverToGrey {
+  100% {
+    background: rgba(119,136,153,0.3);
+    color: #1e90ff;
+  }
+}
+@-webkit-keyframes titleHoverToGrey {
+  100% {
+    background: rgba(119,136,153,0.3);
+    color: #1e90ff;
+  }
+}
+@-o-keyframes titleHoverToGrey {
+  100% {
+    background: rgba(119,136,153,0.3);
+    color: #1e90ff;
+  }
+}
+@keyframes titleHoverToGrey {
+  100% {
+    background: rgba(119,136,153,0.3);
+    color: #1e90ff;
+  }
+}
 .article {
   margin: 50px 0;
 }
 .article-inner {
   overflow: hidden;
-}
-.article-inner:hover {
-  -webkit-animation: articleHoverToGrey 0.5s forwards;
-  -moz-animation: articleHoverToGrey 0.5s forwards;
-  -ms-animation: articleHoverToGrey 0.5s forwards;
-  animation: articleHoverToGrey 0.5s forwards;
 }
 .article-meta:before,
 .article-meta:after {
@@ -972,26 +996,6 @@ a.article-title:hover {
   display: block;
   max-width: 100%;
   margin: 0 auto;
-}
-@-moz-keyframes articleHoverToGrey {
-  100% {
-    color: #b0c4de;
-  }
-}
-@-webkit-keyframes articleHoverToGrey {
-  100% {
-    color: #b0c4de;
-  }
-}
-@-o-keyframes articleHoverToGrey {
-  100% {
-    color: #b0c4de;
-  }
-}
-@keyframes articleHoverToGrey {
-  100% {
-    color: #b0c4de;
-  }
 }
 #comments {
   background: #fff;
