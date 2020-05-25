@@ -576,6 +576,12 @@ body {
 .article-inner {
   overflow: hidden;
 }
+.article-inner:hover {
+  -webkit-animation: article-innerHover 0.5s forwards;
+  -moz-animation: article-innerHover 0.5s forwards;
+  -ms-animation: article-innerHover 0.5s forwards;
+  animation: article-innerHover 0.5s forwards;
+}
 .article-meta:before,
 .article-meta:after {
   content: "";
@@ -1006,6 +1012,50 @@ a.article-title:hover {
   display: block;
   max-width: 100%;
   margin: 0 auto;
+}
+@-moz-keyframes article-innerHover {
+  0% {
+    border: 0.1px solid #6cf;
+  }
+  100% {
+    background-color: #f6f6f6;
+    border: 1px solid #00bfff;
+    -webkit-box-shadow: #6cf 0px 0px 2px 1px;
+    box-shadow: #6cf 0px 0px 2px 1px;
+  }
+}
+@-webkit-keyframes article-innerHover {
+  0% {
+    border: 0.1px solid #6cf;
+  }
+  100% {
+    background-color: #f6f6f6;
+    border: 1px solid #00bfff;
+    -webkit-box-shadow: #6cf 0px 0px 2px 1px;
+    box-shadow: #6cf 0px 0px 2px 1px;
+  }
+}
+@-o-keyframes article-innerHover {
+  0% {
+    border: 0.1px solid #6cf;
+  }
+  100% {
+    background-color: #f6f6f6;
+    border: 1px solid #00bfff;
+    -webkit-box-shadow: #6cf 0px 0px 2px 1px;
+    box-shadow: #6cf 0px 0px 2px 1px;
+  }
+}
+@keyframes article-innerHover {
+  0% {
+    border: 0.1px solid #6cf;
+  }
+  100% {
+    background-color: #f6f6f6;
+    border: 1px solid #00bfff;
+    -webkit-box-shadow: #6cf 0px 0px 2px 1px;
+    box-shadow: #6cf 0px 0px 2px 1px;
+  }
 }
 #comments {
   background: #fff;
